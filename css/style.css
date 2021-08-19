@@ -1193,7 +1193,7 @@ span.flatpickr-weekday {
 }
 
 .s002 {
-  min-height: 80vh;
+  min-height: 100vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1220,7 +1220,7 @@ span.flatpickr-weekday {
   padding: 16px;
   display: -ms-flexbox;
   display: flex;
- 
+ margin-top: 40px;
   width: 100%;
   -ms-flex-pack: justify;
       justify-content: space-between;
