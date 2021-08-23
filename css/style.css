@@ -1681,3 +1681,18 @@ span.flatpickr-weekday {
 
   width: max-content;
 }
+
+ i{
+  color:#c99e13;
+  font-size: large;
+	animation-name: likeAnimation;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-duration: 0.65s;
+  
+}
+
+@keyframes likeAnimation {
+  0%   { transform: scale(30); }
+  100% { transform: scale(1); }
+}

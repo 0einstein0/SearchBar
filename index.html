@@ -109,16 +109,16 @@ style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-w
             <input class="datepicker" id="return" type="text" placeholder="30 Aug 2018" />
           </div>
           <div class="input-field animate__animated animate__bounceInUp  fourth-wrap">
-            <div class="icon-wrap">
+            <div class="icon-wrap" id="catIcon">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                 <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
               </svg>
             </div>
-            <select data-trigger="" name="choices-single-defaul">
+            <select data-trigger=""  id="mySelect" onchange="myFunction()" name="choices-single-defaul">
               <option placeholder="">Category</option>
-              <option>Football</option>
-              <option>Basketball</option>
-              <option>Cricket</option>
+              <option value="football">Football</option>
+              <option value="basketball">Basketball</option>
+              <option value="cricket">Cricket</option>
             </select>
           </div>
           <div class="input-field animate__animated animate__bounceInRight  fifth-wrap">
