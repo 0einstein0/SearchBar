@@ -23,17 +23,31 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.navbar {
-  background-color: rgb(19, 19, 19);
-}
-.overlay {
 
- background-color: rgba(87, 68, 5, 0.589);
+.logo{
+  width: 15%;
+  height: auto;
+  
+  align-self: center;
+}
+.navbar {
+  position: relative;
+  
+  background-color:  rgba(160, 132, 8, 0.582);
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+ 
+ background-color: rgba(160, 132, 8, 0.582);
  background-size: cover;
   height: 110vh;
 }
 .footer {
   background-color: rgb(26, 26, 26);
+  height: 30px;
+  
 }
 
 h1 {
@@ -1269,7 +1283,8 @@ span.flatpickr-weekday {
 }
 
 .s002 {
-  min-height: 100vh;
+  
+  min-height: 80vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1277,10 +1292,9 @@ span.flatpickr-weekday {
   -ms-flex-align: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  background: url("../images/Searchs_002.png");
-  background-size: cover;
-  background-position: center center;
+
   padding: 15px;
+  
 }
 
 .s002 form {
@@ -1488,7 +1502,7 @@ span.flatpickr-weekday {
   .input-field.fourth-wrap
   .choices__list--dropdown
   .choices__item--selectable.is-highlighted {
-  background: rgba(168, 120, 17, 0.692);
+  background: rgba(179, 139, 8, 0.781);
   color: #eeeeee;
   border-radius: 3px;
 }
@@ -1524,7 +1538,7 @@ span.flatpickr-weekday {
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #690a0a, #570909
+    #a80808, #860d0d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   white-space: nowrap;
@@ -1681,6 +1695,8 @@ span.flatpickr-weekday {
 
   width: max-content;
 }
+
+
 
  i{
   color:#c99e13;
